@@ -10,10 +10,6 @@
 #define Program int main(int argumentCount, char** arguments) {
 #define End }
 
-#define Call(function) function(
-#define EndCall )
-
-#define EndLine ;
 #define Return return
 
 #define Int32 int
