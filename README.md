@@ -7,7 +7,7 @@ It includes a string manipulation library [str.c](https://github.com/wwidlishy/s
 
 Int32, Int64, Int128 - Integer types  
 uInt32, uInt64, uInt128 - unsigned Integer types  
-Char, CStr - character types
+Char, CStr - character types  
 Str - [str.c](https://github.com/wwidlishy/str.c) string type
 
 # Syntax
