@@ -30,3 +30,23 @@ Program
 End
 ```
 
+## If statements
+
+```c
+#include "cpl.h"
+
+Function(uInt128, absolute) Int128 n Start
+    If n == 0 Start
+        Return 0;
+    End Elsif n < 0 Start
+        Return (-1) *n;
+    End Els
+        Return n;
+    End
+End
+
+Program
+    prt("%d\n", absolute(-23));
+    Return 0;
+End
+```
